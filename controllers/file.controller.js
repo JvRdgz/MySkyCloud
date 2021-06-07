@@ -5,7 +5,7 @@ const fs = require("fs");
 // Modulo para gestionar la subida de archivos al servidor
 const formidable = require('formidable');
 
-const baseUrl = "http://localhost:3000/files/";
+const baseUrl = "https://myskycloud.herokuapp.com/files/";
 
 const uploadFilesController = function (app) {
 	function isLoggedIn(req, res, next) {
